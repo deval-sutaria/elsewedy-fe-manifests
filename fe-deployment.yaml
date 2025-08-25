@@ -3,6 +3,10 @@ kind: Deployment
 metadata:
   name: nuxt-frontend
   namespace: elsewedy-app
+  annotations:
+    reloader.stakater.com/auto: "true"
+    reloader.stakater.com/configmap: "ecatalog-config,ecatalog-appsettings,ecatalog-env"
+    reloader.stakater.com/secret: "ecatalog-secret"
 spec:
   replicas: 2
   selector:
