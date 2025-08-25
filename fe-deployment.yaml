@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: nuxt-frontend
-          image: europe-west1-docker.pkg.dev/poc-elsewedy-0825/elsewedy-repo-elsewedy/frontend:5eca839
+          image: europe-west1-docker.pkg.dev/poc-elsewedy-0825/elsewedy-repo-elsewedy/frontend:69fdb07
           ports:
             - containerPort: 3228
           envFrom:
