@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ecatalog-env
+  namespace: elsewedy-app
+data:
+  .env: |
+    CLIENT_ID=A607E826-C330-41FF-925E-95BF9B6EF793
+    CLIENT_SECRET=2D6AB8A9-B337-4AE3-8F42-D5FD82A1FEED
+    API_URL=http://34.78.217.3
+    BASE_URL=localhost:3228

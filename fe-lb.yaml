@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: nuxt-frontend-service-lb
+  namespace: elsewedy-app
+spec:
+  type: LoadBalancer
+  selector:
+    app: nuxt-frontend
+  ports:
+    - port: 80
+      targetPort: 3228
+
