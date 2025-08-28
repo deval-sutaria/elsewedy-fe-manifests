@@ -4,6 +4,7 @@ metadata:
   name: nuxt-frontend
   namespace: elsewedy-app
   annotations:
+    reloader.stakater.com/match: "true"
     reloader.stakater.com/auto: "true"
     reloader.stakater.com/configmap: "ecatalog-config,ecatalog-appsettings,ecatalog-env"
     reloader.stakater.com/secret: "ecatalog-secret"
